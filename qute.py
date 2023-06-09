@@ -10,14 +10,14 @@ h2 { background-color: #AEE; padding: 0.8ex 0.8ex 0.5ex 0.8ex; border: 2px solid
 h3 { background-color: #EEA; padding: 0.8ex 0.8ex 0.5ex 0.8ex; border: 2px solid #CC9; }
 </style>'''))
 display(Markdown(r'''
+$\newcommand{\beq}{\qquad\begin{align}}$
+$\newcommand{\eeq}{\end{align}}$
+$\newcommand{\half}{\frac{1}{2}}$
 $\newcommand{\mean}[1]{\langle #1 \rangle}$
 $\newcommand{\bra}[1]{\langle #1 \rvert}$
 $\newcommand{\ket}[1]{\lvert #1 \rangle}$
 $\newcommand{\adag}{a^\dagger}$
 $\newcommand{\mat}[1]{\underline{\underline{\mathbf{#1}}}}$
-$\newcommand{\beq}{\qquad\begin{align}}$
-$\newcommand{\eeq}{\end{align}}$
-$\newcommand{\half}{\frac{1}{2}}$
 '''))
 
 from collections.abc import Iterable
