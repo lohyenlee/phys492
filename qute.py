@@ -3,13 +3,12 @@
 # Yen Lee Loh 2023-6-4
 #========================
 from IPython.display import display,HTML,Markdown
-display(HTML('''
-<style>
+display(HTML('''<style>
 h1 { background-color: #AEA; padding: 0.8ex 0.8ex 0.5ex 0.8ex; border: 2px solid #8C8; }
 h2 { background-color: #AEE; padding: 0.8ex 0.8ex 0.5ex 0.8ex; border: 2px solid #9CC; }
 h3 { background-color: #EEA; padding: 0.8ex 0.8ex 0.5ex 0.8ex; border: 2px solid #CC9; }
 </style>'''))
-display(Markdown(r'''
+display(Markdown(r'''$~$
 $\newcommand{\beq}{\qquad\begin{align}}$
 $\newcommand{\eeq}{\end{align}}$
 $\newcommand{\half}{\frac{1}{2}}$
@@ -17,7 +16,10 @@ $\newcommand{\mean}[1]{\langle #1 \rangle}$
 $\newcommand{\bra}[1]{\langle #1 \rvert}$
 $\newcommand{\ket}[1]{\lvert #1 \rangle}$
 $\newcommand{\adag}{a^\dagger}$
-$\newcommand{\mat}[1]{\underline{\underline{\mathbf{#1}}}}$
+$\newcommand{\vect}[1]{{\underline{\mathbf{#1}}}}$
+$\newcommand{\mat}[1]{{\underline{\underline{\mathbf{#1}}}}}$
+$\newcommand{\re}{\mathop{\mathrm{Re}}}$
+$\newcommand{\im}{\mathop{\mathrm{Im}}}$
 '''))
 
 from collections.abc import Iterable
